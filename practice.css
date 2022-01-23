@@ -1,0 +1,166 @@
+.section-title1 {
+    text-align: center;
+    /* padding-bottom: 30px; */
+  }
+  /* .tot{
+    background: linear-gradient(to right, #bd9ac4, #d8b19a);
+  } */
+  #dt{
+    background-color: rgb(27, 23, 71);
+    color: white;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 20px;
+    left: 220px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+ }
+ 
+ #dt:hover{
+     background-color: rgb(92, 166, 235) ;
+  /* color:black; */
+ }
+ #dt1{
+  background-color: rgb(21, 18, 75);
+  color: white;
+  font-size: 20px;
+  position: relative;
+  padding: 12px;
+  margin-right: 150px;
+  left: 280px;
+  display: inline-block;
+  width: 250px;
+  height: 55px;
+}
+
+#dt1:hover{
+   background-color: rgb(26, 30, 88) ;
+/* color:black; */
+}
+  .section-title1 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2d6599;
+  }
+  .section-title1 p{
+    font-size: 15px;
+  }
+  .section-title1 h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title1 h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: rgb(21, 22, 88);
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title1 p {
+    margin-bottom: 0;
+  }
+  
+.faq1 .faq-list1 {
+    padding: 0 100px;
+    font-size: 15px;
+}
+  
+  .faq1 .faq-list1 ul {
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+  .faq1 .faq-list1 li + li {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  .faq1 .faq-list1 li {
+    padding: 20px;
+    background:rgb(164, 201, 235)  ;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .faq1 .faq-list1 a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .faq1 .faq-list1 .icon-help {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+  
+    left: 20px;
+    color: rgb(18, 21, 59);
+  }
+  
+  .faq1 .faq-list1 .icon-show, .faq1 .faq-list1 .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .faq1 .faq-list1 p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
+  
+  .faq1 .faq-list1 .icon-show {
+    display: none;
+  }
+  
+  .faq1 .faq-list1 a.collapsed {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .faq1 .faq-list1 a.collapsed:hover {
+    color: rgb(31, 32, 112);
+    text-decoration: none;
+  }
+  
+  .faq1 .faq-list1 a.collapsed .icon-show {
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(33, 23, 87);
+  }
+  
+  .faq1 .faq-list1 a.collapsed .icon-close {
+    display: none;
+    text-decoration: none;
+    color:rgb(23, 23, 66);
+  }
+  
+  @media (max-width: 1200px) {
+    .faq1 .faq-list1 {
+      padding: 0;
+    }
+  }
